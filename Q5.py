@@ -1,3 +1,11 @@
+# Question 5: A vehicle rental company provides cars and bikes to customers. Rental charges depend on the type of vehicle and the number of days it is rented.
+# ● Class: Create a Vehicle class with vehicle number and rental duration.
+# ● Object: Create objects representing different vehicles.
+# ● Inheritance: Create Car and Bike subclasses.
+# ● Polymorphism: Override the calculate_rent() method to calculate rental charges according to the vehicle type.
+# Write a Python program to calculate the rental charges for cars and bikes. 
+# The company charges ₹2,000 per day for a car and ₹800 per day for a bike. 
+# The program should accept the vehicle details and number of rental days and display the total rental amount.
 
 class Vehicle:
     def __init__(self, no, days):

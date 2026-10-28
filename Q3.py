@@ -1,3 +1,11 @@
+# Question 3: An organization employs permanent and contractual employees. Permanent employees receive a basic salary and a house rent allowance (HRA), while contractual employees receive a fixed salary without HRA.
+# ● Class: Define an Employee class containing employee ID, name, and basic salary.
+# ● Object: Create employee objects.
+# ● Inheritance: Create PermanentEmployee and ContractEmployee subclasses.
+# ● Polymorphism: Override the calculate_salary() method to calculate salaries according to employee type.
+# Write a Python program to calculate the monthly salary of permanent and contractual employees. 
+# For permanent employees, HRA is 20% of the basic salary. 
+# Contractual employees receive only their fixed monthly salary.
 
 class Employee:
     def __init__(self, id, name, salary):

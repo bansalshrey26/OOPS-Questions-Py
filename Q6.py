@@ -1,3 +1,16 @@
+# Question 6: A university conducts examinations for undergraduate and postgraduate students. 
+# Undergraduate students are evaluated using three subjects, whereas postgraduate students are evaluated using four subjects.
+# ● Class: Create a Student class containing student name and marks.
+# ● Object: Create objects for individual students.
+# ● Inheritance: Create UndergraduateStudent and PostgraduateStudent subclasses.
+# ● Polymorphism: Override the calculate_result() method to calculate the average and determine the result according to the student's category.
+# Write a Python program to calculate the average marks and result of undergraduate and postgraduate students. Use the following rules:
+# 1. Undergraduate students have three subjects.
+# 2. Postgraduate students have four subjects.
+# 3. A student passes if the average marks are at least 40.
+# 4. Otherwise, the student fails.
+# Strictly for practice purpose for PCS 154 students Prof. DS
+# The program should display the student's name, average marks, and result.
 
 class Student:
     def __init__(self, name, marks):

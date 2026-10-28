@@ -1,3 +1,11 @@
+# Question 4: A hospital generates bills for patients receiving general consultation or specialist consultation. Specialist consultations cost more than general consultations.
+# ● Class: Create a Patient class containing patient name and consultation details.
+# ● Object: Create objects for different patients.
+# ● Inheritance: Create GeneralPatient and SpecialistPatient subclasses.
+# ● Polymorphism: Override the calculate_bill() method to calculate consultation charges according to patient type.
+# Write a Python program that calculates hospital consultation bills. 
+# A general consultation costs ₹500, while a specialist consultation costs ₹1,200. 
+# The program should display the patient's name, consultation type, and total bill.
 
 class Patient:
     def __init__(self, name):
